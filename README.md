@@ -1,2 +1,12 @@
 # codeacademy
- codeacademy problems and random problems
+                                        # KEY METHODS
+1. PUBLIC ACCESS MODIFIER
+
+
+
+
+
+
+
+2. 
+
