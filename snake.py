@@ -49,6 +49,15 @@ def init_vars():
 init_vars()
 # pause at 5:29 ASMR Programming - Coding a Snake Game - No talking
 def show_score():
+    print("showing score")
+
+
+#game loop 
+
+while True:
+    for event in pygame.event.get():
+        if event.type = pygame.QUIT:
+            pygame_quit
 
 
 
