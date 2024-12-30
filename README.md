@@ -31,3 +31,14 @@ myTeacher = Teacher("Dr. Hirani", 49, "Computer Science")
 myTeacher.print_info()
 print(myTeacher.subject)
 
+
+
+
+DICTIONARIES
+grocieries = {'fruits': ['mangoes', 'bananas', 'kiwis'], 
+'protein': ['beef', 'pork', 'salmon'],
+'carbs'" ['rice', 'pasta', 'bread'],
+'veggies': ['lettuce', 'cabbage', 'onion']}
+
+groceieries['fruits']
+output: mangoes, bananas, kiwis
