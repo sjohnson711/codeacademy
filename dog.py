@@ -23,27 +23,45 @@
 
 # print(d.wife(20))
 
-print("Welcome to Treasure Island.")
-print("Your mission is to find the treasure.")
+# print("Welcome to Treasure Island.")
+# print("Your mission is to find the treasure.")
 
-direction = input('"You have come to a lake, which way do you want to go? "left or right:').lower()
+# direction = input('"You have come to a lake, which way do you want to go? "left or right:').lower()
 
 
-if direction == 'left':
-    action = input("You've cae to an island and you can "
-                   "either choose to swim or wait").lower()
+# if direction == 'left':
+#     action = input("You've cae to an island and you can "
+#                    "either choose to swim or wait").lower()
 
-    if action == 'wait':
-        door = input('you have arrived at the island unharmed. There is three doors, which one? ').lower()
+#     if action == 'wait':
+#         door = input('you have arrived at the island unharmed. There is three doors, which one? ').lower()
 
-        if door == 'red':
-            print('Room full of fire game over')
-        elif door == 'yellow':
-            print('you have found the treasure')
-        else:
-            print('room full of water. Game over')
+#         if door == 'red':
+#             print('Room full of fire game over')
+#         elif door == 'yellow':
+#             print('you have found the treasure')
+#         else:
+#             print('room full of water. Game over')
 
-    else:
-        print('you have been attacked and killed')
-else: # if choose right or anything ELSE
-    print('You fell in a hole, game over')
+#     else:
+#         print('you have been attacked and killed')
+# else: # if choose right or anything ELSE
+#     print('You fell in a hole, game over')
+
+class Computer:
+    def __init__(self, ram, gpu, pc):
+        self.ram = ram
+        self.gpu = gpu
+        self.pc = pc
+    def computer1(self):
+        print(f"My computer has a {self.ram}, {self.gpu}")
+    def computer2(self):
+        print(f'I have the new gaming pc{self.pc}')
+
+
+
+
+my_computer = Computer('16gb', 'gpx', 'Gaming console')
+my_computer.computer1()
+my_computer.computer2()
+       
